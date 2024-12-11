@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func multiply(_ sender: Any) {
-        add_eq(value: "x")
+        add_eq(value: "*")
 
     }
     
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         let expression = NSExpression(format: equ)
         let result = expression.expressionValue(with: nil, context: nil) as! Double
         output.text = format_result(result: result)
-        
+        equ = format_result(result: result)
     }
     func format_result(result: Double) -> String{
         if result.truncatingRemainder(dividingBy: 1)==0{
@@ -75,11 +75,11 @@ class ViewController: UIViewController {
     @IBAction func two(_ sender: Any) {
         add_eq(value: "2")
     }
-    
+ 
     @IBAction func three(_ sender: Any) {
         add_eq(value: "3")
+
     }
-    
     @IBAction func four(_ sender: Any) {
         add_eq(value: "4")
     }
