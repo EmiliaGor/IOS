@@ -14,3 +14,6 @@ Zad 4 Sieć
 
 Zad 5 Oauth
 3.0 logowanie przez aplikację serwerową- TAK
+
+Zad 6 
+3.0 - TAK
