@@ -16,4 +16,7 @@ Zad 5 Oauth
 3.0 logowanie przez aplikację serwerową- TAK
 
 Zad 6 
-3.0 - TAK
+3.0 formularz płatności oraz mockowanie przez aplikację serwerową - TAK
+
+Zad 7
+3.0 stworzyć 30 asercji testów funkcjonalnych
